@@ -1,0 +1,203 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Gilroy";
+}
+html {
+    font-size: 1em;
+}
+body {
+    font-size: 100%;
+}
+a img,
+:link img,
+:visited img {
+    border: 0;
+}
+.site-up {
+    width: 1295px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.site-up-nolik {
+    margin-top: 10px;
+    width: 250px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 0px black;
+    border-radius: 20%;
+}
+.site-up-nolik-border {
+    width: 250px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 10px black;
+    border-radius: 20%;
+}
+
+.site-up-krestik {
+    margin-top: 10px;
+    width: 250px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 0px black;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+.site-up-krestik-border {
+    width: 250px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid 10px black;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+button {
+    width: 300px;
+    height: 300px;
+    color: aqua;
+}
+.site-up-right {
+    position: absolute;
+    right: 20px;
+}
+.site-up-right-chose {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-down {
+    width: 1295px;
+    margin: 0 auto;
+    position: relative;
+}
+.site-down-begin {
+    font-size: 27px;
+    font-weight: bold;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.site-down-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.site-down-row-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-down-row-column-1 {
+    border: solid 5px black;
+    width: 54.87px;
+    height: 63.75;
+}
+.hidden {
+    visibility: hidden;
+}
+.colors {
+    background-color: #1b1b28;
+}
+.site-down-draw1 {
+    position: absolute;
+    bottom: -5px;
+    left: 473px;
+}
+.site-down-draw2 {
+    position: absolute;
+    bottom: -5px;
+    left: 536px;
+}
+.site-down-draw3 {
+    position: absolute;
+    bottom: -5px;
+    left: 601px;
+}
+.site-down-draw4 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 39px;
+    left: 548px;
+}
+.site-down-draw5 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 114px;
+    left: 548px;
+}
+.site-down-draw6 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 188px;
+    left: 548px;
+}
+.site-down-draw7 {
+    position: absolute;
+    transform: rotate(41deg);
+    top: 68px;
+    left: 503px;
+}
+.site-down-draw8 {
+    position: absolute;
+    transform: rotate(-41deg);
+    top: 68px;
+    left: 506px;
+}
+.positions {
+    position: relative;
+}
+
+.upper-inside {
+    margin: 0 auto;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+}
+.upper-inside-text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 140px;
+}
+.upper-inside-text-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+}
+.upper-inside-text-right {
+    margin-left: 20px;
+}
+.upper-inside-chose {
+    margin: auto auto;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 34px;
+    cursor: pointer;
+}
+.display {
+    display: none;
+}
